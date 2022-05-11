@@ -1,9 +1,11 @@
 import React from "react";
 
+import Map from "../components/Map";
 
 const About = () => {
     return (
         <div className="">
+        <Map />
             About
             Delivering milk in Cardiff since 1983. Support doorstep deliveries and support your community.
 
