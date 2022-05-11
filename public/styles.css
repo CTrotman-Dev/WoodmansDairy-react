@@ -108,6 +108,21 @@ footer p {
   box-shadow: 0 2px 5px var(--off-white);
   text-align: left;
 }
+.contact-card {
+  border-radius: 25px;
+  position: relative;
+  padding: 25px 15px;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: var(--dark-font);
+  margin: 30px 0 30px 20px;
+  height: 90%;
+  width: 90%;
+  box-shadow: 0 2px 5px var(--off-white);
+  text-align: left;
+}
+.contact-card .bottom{
+  margin-top: 50px;
+}
 
 .top {
   border-radius: 25px 25px 0 0;
@@ -148,35 +163,6 @@ footer p {
   color: var(--dark-font);
 }
 
-.dictionary {
-  width: 650px;
-  margin: 0 auto;
-}
-
-.term {
-  text-align: center;
-  border-radius: 25px;
-  position: relative;
-  padding: 25px 15px;
-  background-color: #970000;
-  color: #eee;
-  margin: 30px 0 30px 20px;
-  height: auto;
-  width: 100%;
-  box-shadow: 0 2px 5px #ccc;
-}
-
-.term h1 {
-  margin-bottom: 15px;
-}
-
-
-
-.emoji {
-  font-size: 50px;
-}
-
-
 
 .container {
   width: 100%;
@@ -206,37 +192,7 @@ footer p {
   font-size: 1.5rem;
 }
 
-/* .form input {
-  box-sizing: border-box;
-  background-color: transparent;
-  padding: 0.7rem;
-  border-bottom-right-radius: 15px 3px;
-  border-bottom-left-radius: 3px 15px;
-  border: solid 3px transparent;
-  border-bottom: dashed 3px #fdcb6e;
-  font-family: "Architects Daughter", cursive;
-  font-size: 1rem;
-  color: hsla(260, 2%, 25%, 0.7);
-  width: 70%;
-  margin-bottom: 20px;
-} */
 
-/* button {
-  padding: 0;
-  border: none;
-  font-family: "Architects Daughter", cursive;
-  text-decoration: none;
-  padding-bottom: 3px;
-  border-radius: 5px;
-  background-color: #ffeaa7;
-}
-button span {
-  background: #f1f5f8;
-  display: block;
-  padding: 0.5rem 1rem;
-  border-radius: 5px;
-  border: 2px solid hsl(198, 1%, 29%);
-} */
 
 li {
   font-family: "Architects Daughter", cursive;
@@ -318,4 +274,22 @@ form.create-note button {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   cursor: pointer;
   outline: none;
+}
+
+.contact-form button {
+  width:100%;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.contact-form input,textarea{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;;
 }

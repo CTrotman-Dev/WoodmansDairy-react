@@ -1,9 +1,16 @@
 {
-  "name": "keeper-app-part-1-starting",
+  "name": "woodmans-diary-react",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
   "main": "src/index.js",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
   "dependencies": {
     "@emotion/react": "latest",
     "@emotion/styled": "latest",
@@ -11,6 +18,7 @@
     "@mui/material": "latest",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
+    "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1"
   },
   "devDependencies": {

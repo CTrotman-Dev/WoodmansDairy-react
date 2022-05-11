@@ -25,7 +25,7 @@ const Footer = () => {
         <Container maxWidth="md">
             <Box sx={{ my: 10 }}>
                 <Typography variant="h4" component="h1" gutterBottom>
-                    Add info here
+                    {/* Add info here */}
                 </Typography>
                 
                 <Copyright />

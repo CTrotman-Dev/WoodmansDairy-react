@@ -1,28 +1,17 @@
 import React, { useState } from "react";
+import { Routes, Route } from "react-router-dom";
 
 import { StyledEngineProvider } from '@mui/material/styles';
 
 import Header from "./Header";
-import Form from "./Form";
-import ToDoList from "./ToDoList";
-import ButtonEvents from "./ButtonEvents";
-import RowContainer from "./RowContainer";
-import DynamicCounter from "./DynamicCounter";
-import GetTime from "./GetTime";
-import Card from "./Card";
-
-import NoteComponent from "./NoteComponent"
-import Avatar from "./Avatar";
-import DictionaryItem from "./DictionaryItem";
 import Footer from "./Footer";
+import Home from "../pages/Home";
+import About from "../pages/About";
+import Contact from "../pages/Contact";
+import Produce from "../pages/Produce";
+import News from "../pages/News";
 
-import dictionaryData from "../dictionaryData";
-import contacts from "../contacts";
-import productData from "../productData";
 
-
-let isLoggedIn = true;
-let isRegistered = true;
 
 function App() {
     return (
@@ -30,16 +19,13 @@ function App() {
             <div>
                 <Header />
                 <div className="mainContent">
-                    <div className="row">
-                        {productData.map(x =>
-                            <Card key={x.id}
-                                name={x.name}
-                                img={x.img}
-                                desc={x.desc}
-                                type={x.type}
-                            />
-                        )}
-                    </div>
+                    <Routes>
+                        <Route exact path="/" element={<Home />} />
+                        <Route path="/about" element={<About />} />
+                        <Route path="/contact" element={<Contact />} />
+                        <Route path="/produce" element={<Produce />} />
+                        <Route path="/news" element={<News />} />
+                    </Routes>
                 </div>
                 <Footer />
             </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 
 // const isRegistered = false;
@@ -15,16 +16,24 @@ function Header() {
                 <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="#">Home</a>
+                        <Link to="/">Home</Link>
+                            {/* <a className="nav-link active" aria-current="page" href="#">Home</a> */}
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Produce</a>
+                        <Link to="/produce">Produce</Link>
+                            {/* <a className="nav-link" href="#">Produce</a> */}
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">News</a>
+                        <Link to="/news">News</Link>
+                            {/* <a className="nav-link" href="#">News</a> */}
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Contact Us</a>
+                        <Link to="/about">About</Link>
+                            {/* <a className="nav-link" href="#">Contact Us</a> */}
+                        </li>
+                        <li className="nav-item">
+                        <Link to="/contact">Contact</Link>
+                            {/* <a className="nav-link" href="#">Contact Us</a> */}
                         </li>
                     </ul>
                    {/*  <form className="d-flex">

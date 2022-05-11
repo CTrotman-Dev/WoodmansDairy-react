@@ -2,10 +2,9 @@ import React, { useState } from "react";
 
 const Form = (props) => {
     const [contact, setContact] = useState({
-        username: "",
+        fullname: "",
         email: "",
-        password: "",
-        passwordMatch: false
+        message: ""
     });
 
     function handleFormChanges(event) {
@@ -18,17 +17,22 @@ const Form = (props) => {
         });
     }
 
+    function handleSubmit(event){
+        window.open("mailto:woodymilk@yahoo.co.uk?subject=Customer%20Enquiry&body="+contact.message);
+        event.preventDefault();
+    }
+
     return (
-        <form className="form">
-            <h1>{contact.username} {contact.email} {contact.password} {contact.passwordMatch}</h1>
-            <input onChange={handleFormChanges} value={contact.username} type="text" placeholder="Username" name="username" />
-            <input onChange={handleFormChanges} value={contact.email} type="text" placeholder="Email" name="email" />
-            <input onChange={handleFormChanges} value={contact.password} type="password" placeholder="Password" name="password" />
-            {!props.isRegistered && <input onChange={handleFormChanges} value={contact.passwordMatch} type="password" name="passwordMatch" placeholder="Confirm password" />}
-            <button type="submit">
-                {props.isRegistered ? "Login" : "Register"}
-            </button>
-        </form>
+        <div className="contact-card">
+            <form className="contact-form" onSubmit={handleSubmit}>
+                <input onChange={handleFormChanges} value={contact.fullname} type="text" placeholder="Full name" name="fullname" />
+                <input onChange={handleFormChanges} value={contact.email} type="text" placeholder="Email" name="email" />
+                <textarea onChange={handleFormChanges} value={contact.message} name="message" placeholder="Enter message here" rows={5} cols={50} />
+                <button type="submit" className="btn btn-lg btn-danger">
+                    Send
+                </button>
+            </form>
+        </div>
     );
 }
 
