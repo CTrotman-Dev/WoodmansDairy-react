@@ -13,7 +13,7 @@ const Footer = () => {
             <Typography variant="body2" color="text.secondary" align="center">
                 {'Copyright © '}
                 <Link color="inherit" href="https://trotmanenterprise.com/">
-                    Trotman Enterprise
+                    Craig Trotman
                 </Link>{' '}
                 {new Date().getFullYear()}.
             </Typography>
