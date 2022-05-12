@@ -5,7 +5,7 @@ import ContactCard from "../components/ContactCard";
 
 const Contact = () => {
     return (
-        <div className="">
+        <div className="contact-page">
             <h1>
             Contact Us
             </h1>

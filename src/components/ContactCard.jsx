@@ -4,8 +4,7 @@ import CardDetails from "./CardDetails";
 
 function ContactCard(props) {
     return (
-        <div className="contact-card row">
-            <div className="col-6">
+        <div className="contact-card">
                 <div className="top">
                     <h2 className="name">
                         {props.name}
@@ -20,7 +19,7 @@ function ContactCard(props) {
                     <CardDetails detailInfo={props.address5} />
                     <CardDetails detailInfo={props.address6} />
                 </div>
-            </div>
+            
 
         </div>
     );
