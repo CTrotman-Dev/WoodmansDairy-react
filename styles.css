@@ -19,19 +19,13 @@
   box-sizing: border-box;
 }
 
-html {
-  font-family: "Montserrat", sans-serif;
-  
-}
-
 body {
+  font-family: "Architects Daughter", cursive;
   background: #dfdfdf;
   /* background-image: url("https://www.transparenttextures.com/patterns/escheresque.png"); */
   padding: 0;
   
 }
-
-#map { height: 180px; }
 
 .row{
  width: 100%;
@@ -294,4 +288,15 @@ form.create-note button {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;;
+}
+
+
+.about-content{
+  text-align: left;
+  margin: 10px auto;
+}
+
+.map { 
+  height: 500px; 
+  margin: 10px auto;
 }
