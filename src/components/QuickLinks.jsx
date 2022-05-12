@@ -1,4 +1,5 @@
 import React from "react";
+
 import QuickLinkCard from "./QuickLinkCard";
 
 const QuickLinks = () => {
