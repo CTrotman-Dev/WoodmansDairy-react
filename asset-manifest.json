@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/WoodmansDairy-react/static/js/main.69df3355.js",
-    "index.html": "/WoodmansDairy-react/index.html",
-    "main.69df3355.js.map": "/WoodmansDairy-react/static/js/main.69df3355.js.map"
+    "main.js": "/static/js/main.64c06f47.js",
+    "index.html": "/index.html",
+    "main.64c06f47.js.map": "/static/js/main.64c06f47.js.map"
   },
   "entrypoints": [
-    "static/js/main.69df3355.js"
+    "static/js/main.64c06f47.js"
   ]
 }
