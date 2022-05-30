@@ -12,7 +12,7 @@ const Footer = () => {
         return (
             <Typography variant="body2" color="text.secondary" align="center">
                 {'Copyright © '}
-                <Link color="inherit" href="https://trotmanenterprise.com/">
+                <Link color="inherit" href="https://craigtrotman.com/">
                     Craig Trotman
                 </Link>{' '}
                 {new Date().getFullYear()}.
