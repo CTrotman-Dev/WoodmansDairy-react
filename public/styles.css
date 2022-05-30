@@ -292,6 +292,19 @@ textarea {
   border-radius: 15px;
 }
 
+.filter-section{
+  position: fixed;
+}
+
+.filter-section-mobile{
+display: none;    
+}
+
+.produce-section{
+  margin:0 0 0 10%;
+  width: 90%;
+}
+
 .about-content,
 .contact-page,
 .news-page {
@@ -403,6 +416,31 @@ textarea {
   .info {
     /* margin: 20px 0; */
     color: var(--dark-font);
+  }
+
+  .filter-section{
+    display: none;
+  }
+
+  .filter-section-mobile{
+display: inline;
+position: fixed;
+text-align: left;
+margin:1px 0 0 -35px;
+opacity: 1;
+  }
+  .filter-mobile-inner{
+    position: absolute;
+  }
+  
+  .dropdown-menu{
+    background-color: rgba(255,255,255,1);
+
+  }
+  .produce-section{
+    margin:0;
+    width: 100%;
+    z-index: -1;
   }
 }
 
