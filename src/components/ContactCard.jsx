@@ -5,13 +5,13 @@ import CardDetails from "./CardDetails";
 function ContactCard(props) {
     return (
         <div className="contact-card">
-                <div className="top">
+                <div className="contact-top">
                     <h2 className="name">
                         {props.name}
                     </h2>
 
                 </div>
-                <div className="bottom">
+                <div className="contact-bottom">
                     <CardDetails detailInfo={props.address1} />
                     <CardDetails detailInfo={props.address2} />
                     <CardDetails detailInfo={props.address3} />
