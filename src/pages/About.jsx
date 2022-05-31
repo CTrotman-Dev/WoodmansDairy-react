@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 import MyMap from "../components/MyMap";
 
 const About = () => {
@@ -40,7 +40,9 @@ const About = () => {
                     </li>
                 </ul>
                 <h3>
-                    <a href="/produce">See our produce page for more information.</a>
+                    <Link className="btn btn-lg btn-danger" to={"/produce"}>
+                        See our produce page for more information.
+                    </Link>
                 </h3>
             </div>
             <div className="col-md-6">

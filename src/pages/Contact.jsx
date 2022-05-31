@@ -7,10 +7,13 @@ const Contact = () => {
     return (
         <div className="contact-page">
             <h1>
-            Contact Us
+            Details
             </h1>
+            <h3>
+            Contact us for your local dairy delivery today, delivering fresh milk, eggs and more to Cardiff and the surrounding areas.
+            </h3>
             <p>
-                Please call us today on 07968807248 or email woodymilk1@yahoo.co.uk.
+                Please call us today on <strong>07968807248</strong> or email <strong>woodymilk1@yahoo.co.uk</strong>.
             </p>
             <div className="row">
                 <div className="col-md-6">

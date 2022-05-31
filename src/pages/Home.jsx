@@ -12,15 +12,21 @@ const Home = () => {
 
             <div className="row">
                 <div className="col-md-6 home-cta">
-                    <h1>Get your milk delivered in Glass today!</h1>
+                    <h1>Reduce your carbon footprint!</h1>
                     <p>
-                        Contact us today to reduce your carbon footprint.
+                        We supply a range of dairy and non dairy alternatives. Visit our 
+                        <Link to={"/produce"}> produce </Link>
+                        section to see our full produce range.
                     </p>
-                    <Link className="btn btn-lg btn-danger" to={"/produce"}>Click Here</Link>
+                    <p>
+                        Contact us today to get your milk delivered in Glass!
+                    </p>
+                    <Link className="btn btn-lg btn-danger" to={"/produce"}>Contact Us</Link>
                 </div>
                 <div className="col-md-6">
                     <CarouselComponent />
                 </div>
+
             </div>
             <QuickLinks />
 

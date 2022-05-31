@@ -289,7 +289,7 @@ const productData = [
     },
     {
         id: 37,
-        name: "Semi Skimmed Goats Milk",
+        name: "Goats Milk",
         type:"Alternate Milk",
         desc:"Delamere Fresh Semi Skimmed Goats Milk 1 Litre",
         price:1.55,
@@ -297,7 +297,7 @@ const productData = [
     },
     {
         id: 38,
-        name: "Fresh Orange Juice",
+        name: "Orange Juice",
         type:"Juice",
         desc:"Fresh Orange Juice 1 Pint (589ml)",
         price:1.55,
@@ -305,7 +305,7 @@ const productData = [
     },
     {
         id: 39,
-        name: "Fresh Apple Juice",
+        name: "Apple Juice",
         type:"Juice",
         desc:"Fresh Apple Juice 1 Pint (589ml)",
         price:1.55,
@@ -313,7 +313,7 @@ const productData = [
     },
     {
         id: 40,
-        name: "Fresh Cranberry Juice",
+        name: "Cranberry Juice",
         type:"Juice",
         desc:"Fresh Cranberry Juice 1 Pint (589ml)",
         price:1.55,
@@ -321,7 +321,7 @@ const productData = [
     },
     {
         id: 41,
-        name: "Hovis White Bread",
+        name: "White Bread",
         type:"Bread",
         desc:"Hovis Medium/Thick Sliced White Bread 800g",
         price:1.55,
@@ -329,7 +329,7 @@ const productData = [
     },
     {
         id: 42,
-        name: "Hovis Wholemeal Bread",
+        name: "Wholemeal Bread",
         type:"Bread",
         desc:"Hovis Medium/Thick Sliced Wholemeal Bread 800g",
         price:1.55,
