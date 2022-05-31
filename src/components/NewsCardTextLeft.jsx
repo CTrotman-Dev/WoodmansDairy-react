@@ -13,7 +13,7 @@ const NewsCardTextLeft = (props) => {
                     {props.text}
                 </p>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6 news-img">
                 <img src={props.imgSrc} alt={"image of " + props.title} />
             </div>
         </div>

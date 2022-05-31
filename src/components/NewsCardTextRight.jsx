@@ -5,7 +5,7 @@ const NewsCardTextRight = (props) => {
     return (
 
         <div className="news-card row">
-            <div className="col-md-6">
+            <div className="col-md-6 news-img">
                 <img src={props.imgSrc} alt={"image of " + props.title} />
             </div>
             <div className="col-md-6">

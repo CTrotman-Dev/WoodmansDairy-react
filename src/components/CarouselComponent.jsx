@@ -5,7 +5,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const CarouselComponent = () => {
     return (
-        <Carousel autoPlay={true} infiniteLoop={true} interval={5000}>
+        <Carousel autoPlay={true} infiniteLoop={true} interval={5000} showThumbs={false}>
             <div>
                 <Link className="carousel-link" to={"/produce"}>
                     <img src="https://c7.alamy.com/zooms/3/4ff98c7070184115adba7c5f4380cf96/m108cj.jpg" />
