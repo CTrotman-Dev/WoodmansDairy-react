@@ -12,9 +12,10 @@ const Home = () => {
 
             <div className="row">
                 <div className="col-md-6 home-cta">
-                    <h1>Reduce your carbon footprint!</h1>
+                    <h1>Delivering milk in Cardiff since 1983.</h1>
+                    <h2>Support doorstep deliveries and support your community.</h2>
                     <p>
-                        We supply a range of dairy and non dairy alternatives. Visit our 
+                        At Woodman's, we deliver a range of dairy and non dairy alternatives to your home. Visit our 
                         <Link to={"/produce"}> produce </Link>
                         section to see our full produce range.
                     </p>

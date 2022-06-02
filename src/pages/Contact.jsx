@@ -13,7 +13,7 @@ const Contact = () => {
             Contact us for your local dairy delivery today, delivering fresh milk, eggs and more to Cardiff and the surrounding areas.
             </h3>
             <p>
-                Please call us today on <strong>07968807248</strong> or email <strong>woodymilk1@yahoo.co.uk</strong>.
+                Please call us today on <strong><a href="tel:07968807248">07968807248</a></strong> or email <strong><a href="mailto:woodymilk1@yahoo.co.uk">woodymilk1@yahoo.co.uk</a></strong>.
             </p>
             <div className="row">
                 <div className="col-md-6">
