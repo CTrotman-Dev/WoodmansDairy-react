@@ -2,33 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://craigtrotman.com/</loc>
-    <image:image>
-      <image:loc>https://craigtrotman.com/images/woodmans.png</image:loc>
-    </image:image>
-    <image:image>
-     <image:loc>https://craigtrotman.com/images/Eggscape.png</image:loc>
-    </image:image>
-    <image:image>
-        <image:loc>https://images.pexels.com/photos/7875939/pexels-photo-7875939.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://images.pexels.com/photos/207456/pexels-photo-207456.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://images.pexels.com/photos/3646172/pexels-photo-3646172.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2</image:loc>
-    </image:image>
+    <loc>https://ctrotman-dev.github.io/</loc>
   </url>
   <url>
-    <loc>https://craigtrotman.com/clients</loc>
+    <loc>https://ctrotman-dev.github.io/produce</loc>
   </url>
   <url>
-    <loc>https://craigtrotman.com/education</loc>
+    <loc>https://ctrotman-dev.github.io/news</loc>
   </url>
   <url>
-    <loc>https://craigtrotman.com/about</loc>
+    <loc>https://ctrotman-dev.github.io/about</loc>
   </url>
   <url>
-    <loc>https://craigtrotman.com/contact</loc>
+    <loc>https://ctrotman-dev.github.io/contact</loc>
   </url>
 </urlset>
