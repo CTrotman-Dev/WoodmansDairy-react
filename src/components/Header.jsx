@@ -14,9 +14,9 @@ function Header() {
       expand="lg"
       sticky="top"
     >
-      <Nav.Link eventKey="5" as={Link} className="nav-item" href="/" to="/">
-        <Navbar.Brand>Woodman's Dairy</Navbar.Brand>
-      </Nav.Link>
+      <Navbar.Brand>
+        <Link to="/">Woodman's Dairy</Link>
+      </Navbar.Brand>
 
       <Navbar.Toggle aria-controls="navbar-nav" />
       <Navbar.Collapse id="navbar-nav">
