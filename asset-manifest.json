@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/WoodmansDairy-react/static/css/main.8eb20739.css",
-    "main.js": "/WoodmansDairy-react/static/js/main.eaf841d8.js",
+    "main.js": "/WoodmansDairy-react/static/js/main.69d9f44a.js",
     "index.html": "/WoodmansDairy-react/index.html",
     "main.8eb20739.css.map": "/WoodmansDairy-react/static/css/main.8eb20739.css.map",
-    "main.eaf841d8.js.map": "/WoodmansDairy-react/static/js/main.eaf841d8.js.map"
+    "main.69d9f44a.js.map": "/WoodmansDairy-react/static/js/main.69d9f44a.js.map"
   },
   "entrypoints": [
     "static/css/main.8eb20739.css",
-    "static/js/main.eaf841d8.js"
+    "static/js/main.69d9f44a.js"
   ]
 }
