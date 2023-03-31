@@ -125,20 +125,25 @@ footer p {
 
 .top {
   border-radius: 25px 25px 0 0;
-  height: 60px;
+  /* height: 75px; */
   width: 100%;
   background-color: rgba(255, 2555, 255, 0.02);
-  padding: 10px 135px 10px 10px;
+  padding: 5px;
+  text-align: center;
+  /* padding: 10px 135px 10px 10px; */
 }
 
 .name {
   font-size: 1.6em;
+  width: 100%;
+  word-break: break-word;
 }
 
 .circle-img {
-  position: absolute;
-  top: 25px;
-  right: 10px;
+  /* position: absolute;
+  top: 5px;
+  right: 5px; */
+  margin: auto auto;
   border-radius: 50%;
   border: 4px solid var(--off-white);
   width: 150px;
@@ -146,13 +151,29 @@ footer p {
 }
 
 .bottom {
-  padding: 10px 140px 0 10px;
+  padding: 5px;
+  margin-bottom: 5px;
+  /* padding: 10px 140px 0 10px; */
   /* margin-top: 100px; */
+}
+
+.info-container {
+  height: 75px;
+  line-height: 75px;
+  padding: 0;
 }
 
 .info {
   /* margin: 20px 0; */
   color: var(--dark-font);
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 18px; /* <-- adjust this */
+}
+
+.img-contain {
+  align-items: center;
+  display: contents;
 }
 
 .container {
@@ -393,6 +414,11 @@ textarea {
 
 /* On screens that are 992px or less */
 @media screen and (max-width: 992px) {
+  .mainContent {
+    margin: 0 5px;
+    text-align: center;
+  }
+
   .navbar {
     font-size: 17px;
   }
@@ -439,19 +465,21 @@ textarea {
   }
 
   .name {
-    font-size: 1.3em;
+    font-size: 1em;
   }
 
   .circle-img {
     border-radius: 50%;
-    border: 4px solid var(--off-white);
-    width: 100px;
-    height: 100px;
+    border: 2px solid var(--off-white);
+    width: 75px;
+    height: 75px;
+    top: 10px;
   }
 
   .info {
     /* margin: 20px 0; */
     color: var(--dark-font);
+    font-size: 0.8em;
   }
 
   .filter-section {
@@ -462,7 +490,7 @@ textarea {
     display: inline;
     position: fixed;
     text-align: left;
-    margin: 1px 0 0 -35px;
+    margin: 1px 0 0 -20px;
     opacity: 1;
     z-index: 10;
   }
